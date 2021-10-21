@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <!--Custom css file-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Swiper CND-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <title>Mobile Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="" class="logo"><i class="fas fa-mobile"></i>Mobile Store</a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Search here..." id="search-box" />
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#arrivals">Arrivals</a>
+                <a href="#review">Review</a>
+                <a href="#blogs">Blog</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- bottom navbar -->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#review" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!--login form-->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" class="box" name="" placeholder="Enter your email" id="" />
+            <span>password</span>
+            <input type="password" class="box" name="" placeholder="Enter your password" id="" />
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me" />
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn btn-primary" />
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create one</a></p>
+        </form>
+    </div>
+
+    <!--Home section -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Upto 25% off</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="moblie-slider">
+                <div class="wrapper">
+                    <a href="#"><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604343704000" alt="" /></a>
+                    <a href="#"><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-white-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343705000" alt="" /></a>
+                    <a href="#"><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-green-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343704000" alt="" /></a>
+                    <a href="#"><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-black-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343702000" alt="" /></a>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!--Home section ends -->
+
+    <!-- icons sections starts-->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>free airpod</h3>
+                <p>order over $100</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fab fa-apple"></i>
+            <div class="content">
+                <h3>accessories</h3>
+                <p>order over $30</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>secure payment</h3>
+                <p>100 secure payment</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 support</h3>
+                <p>call us anytime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- icons sections starts ends-->
+
+    <!--featured section starts-->
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Featured Mobiles</span></h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604343704000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-white-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343705000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-green-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343704000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-black-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604343702000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-blue-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1629842712000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-blue-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1629842712000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-blue-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1629842712000" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>featured mobile</h3>
+                        <div class="price">$1000 <span>$1300</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--featured section ends-->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest updates</h3>
+            <input type="email" name="" placeholder="enter your email address" id="" class="box" />
+            <input type="submit" value="subscribe" class="btn" />
+        </form>
+    </section>
+
+    <!-- newsletter section ends -->
+</body>
+
+<!--Custom Script file-->
+<script src="script.js"></script>
+
+</html>
