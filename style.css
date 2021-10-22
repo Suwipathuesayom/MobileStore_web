@@ -179,26 +179,6 @@ section {
     z-index: 1000;
 }
 
-.bottom-navbar {
-    text-align: center;
-    background: #000000;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-
-.bottom-navbar a {
-    font-size: 2.5rem;
-    padding: 2rem;
-    color: #fff;
-}
-
-.bottom-navbar a:hover {
-    background: var(--dark-color);
-}
-
 .login-form-container {
     display: flex;
     align-items: center;
@@ -416,6 +396,164 @@ section {
     text-decoration: line-through;
 }
 
+.newsletter {
+    background: url("https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1229&q=80") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.newsletter form {
+    max-width: 45rem;
+    margin-left: auto;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.newsletter form h3 {
+    font-size: 2.2rem;
+    color: rgb(49, 49, 49);
+    padding-bottom: 0.7rem;
+    font-weight: normal;
+}
+
+.newsletter form .box {
+    width: 100%;
+    margin: 0.7rem 0;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    border-radius: 0.5rem;
+    text-transform: none;
+}
+
+.arrivals .arrivals-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: var(--border);
+    margin: 10px 250px;
+}
+
+.arrivals .arrivals-slider .box:hover {
+    border: var(--border-hover);
+}
+
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.arrivals .arrivals-slider .box .content .price {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: 0.5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i {
+    font-size: 1.5rem;
+    color: rgb(240, 65, 65);
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: justify;
+}
+
+.footer {
+    background-color: #02091a;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -460,6 +598,13 @@ section {
     }
     .home .row .content h3 {
         font-size: 3.5rem;
+    }
+    .newsletter {
+        background-position: right;
+    }
+    .newsletter form {
+        margin-left: 0;
+        max-width: 100%;
     }
 }
 
